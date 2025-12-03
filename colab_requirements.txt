@@ -1,0 +1,16 @@
+# Google Colab specific requirements
+# (Some packages are pre-installed in Colab)
+
+!pip install xgboost
+!pip install lightgbm
+!pip install catboost
+!pip install shap
+!pip install imbalanced-learn
+!pip install plotly
+
+# Installation cell for Google Colab
+!pip install -q numpy pandas scikit-learn matplotlib seaborn
+!pip install -q xgboost lightgbm catboost
+!pip install -q tensorflow
+!pip install -q shap imbalanced-learn
+!pip install -q plotly ipywidgets
