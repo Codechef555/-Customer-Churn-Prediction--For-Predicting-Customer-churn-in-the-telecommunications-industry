@@ -16,4 +16,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Run the application
-CMD ["python", "customer_churn_prediction.py"]
+
+CMD ["python", "customer_churn.py"]
